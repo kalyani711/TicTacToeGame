@@ -34,7 +34,7 @@ public class TicTacToe {
         while (!gameOver) {
             
             printBoard(board);
-            System.out.println("Enter 0 if you want to exit from the game!");
+            System.out.println("Enter 0 if you want to exit from the game else any other number!");
             int exit = sc.nextInt();
 
                     if (exit==0 ) {
